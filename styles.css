@@ -1,0 +1,185 @@
+@font-face {
+    font-family: arvoBold;
+    src: url(https://raw.githubusercontent.com/akivanno/WebTechHosting/master/Arvo/Arvo-Bold.ttf);
+}
+
+@font-face {
+    font-family: arvoRegular;
+    src: url(https://raw.githubusercontent.com/akivanno/WebTechHosting/master/Arvo/Arvo-Regular.ttf)
+}
+
+@font-face {
+    font-family: arvoItalic;
+    src: url(https://raw.githubusercontent.com/akivanno/WebTechHosting/master/Arvo/Arvo-Italic.ttf)
+}
+
+@font-face {
+    font-family: arvoBoldItalic;
+    src: url(https://raw.githubusercontent.com/akivanno/WebTechHosting/master/Arvo/Arvo-Regular.ttf)
+}
+
+html * {
+    font-family: arvoRegular;
+}
+
+#header * {
+    color: #5C6B73;
+}
+
+#header * pre {
+    font-size: 1.5em;
+}
+
+#header * li::before {
+    font-size: 1.5em;
+    content: '→';
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+#header * a {
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#header * a:visited {
+    color: #5C6B73;
+    text-emphasis: none;
+}
+
+#header {
+    padding-bottom: 10vh;
+    margin-bottom: 5vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A1CDF1;
+}
+
+#header div,
+#header div nav,
+#header div div {
+    display: flex;
+    flex-direction: row;
+}
+
+#header div nav ul li {
+    list-style: none;
+    text-align: left;
+    margin-right: 3vw;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+}
+
+#header div div pre {
+    margin: auto;
+    margin-left: 2vw;
+}
+
+#header div figure figcaption {
+    text-align: center;
+}
+
+#header h1 {
+    font-family: arvoBold;
+    font-size: 4em;
+    color: #FBB7C0;
+    text-shadow: #5C6B73 2px 2px;
+}
+
+#aboutus ul {
+    list-style: none;
+    display: flexbox;
+    flex-direction: row;
+}
+
+.productsTable {
+    margin: auto;
+}
+
+.productsTable tr td img {
+    max-width: 15vw;
+    height: auto;
+}
+
+.productsTable tr td,
+.productsTable tr th,
+.tableBottomForm input[type=text],
+.tableBottomForm input[type=url] {
+    text-align: center;
+    min-width: 15vw;
+    max-width: 20vw;
+    width: 15vw;
+}
+
+.logo {
+    width: 168px;
+    height: auto;
+}
+
+.tableBottomForm input [type=submit] {
+    min-width: 0vw;
+    max-width: 5vw;
+    width: 2vw;
+}
+
+.timetable,
+.timetable tr th,
+.timetable tr td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+.timetable tr td,
+.timetable {
+    border-style: dashed;
+}
+
+.openhours table {
+    margin: auto;
+}
+
+#aboutus nav ul li {
+    float: left;
+    margin: 1vw;
+}
+
+.blueShadow {
+    -webkit-box-shadow: 14px 21px 26px 4px rgba(59, 77, 119, 0.65);
+    box-shadow: 14px 21px 26px 4px rgba(59, 77, 119, 0.65);
+}
+
+html {
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+section {
+    align-content: center;
+    text-align: center;
+}
+
+ol,
+ul {
+    display: table;
+    margin: auto;
+}
+
+dl {
+    list-style: inside;
+    text-align: center;
+}
+
+dl dt,
+dl dd {
+    margin: auto;
+}

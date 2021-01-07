@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://raw.githubusercontent.com/akivanno/WebTechHosting/master/favicon2.png">
+    <title>
+        Inc. 22 Web Shop
+    </title>
+</head>
+
+<body>
+    <section id="header" class="blueShadow">
+        <h1>Inc. 22 Webshop</h1>
+        <div>
+            <figure>
+                <a href="/">
+                    <img src="https://raw.githubusercontent.com/akivanno/WebTechHosting/master/Favicon.png" alt="" class="logo">
+                </a>
+                <figcaption>
+                    <strong><em>Inc. 22</em></strong>
+                </figcaption>
+            </figure>
+            <nav>
+                <ul>
+                    <li><a href="#inventory">Our products</a></li>
+                    <li><a href="#locations">Where to find us</a></li>
+                    <li><a href="#openhours">When are we open</a></li>
+                    <li><a href="#discounts">Get a discount today!</a></li>
+                    <li><a href="#aboutus">More about us...</a></li>
+                </ul>
+            </nav>
+            <div>
+                <pre><cite>
+"You are what you eat,
+               so eat right"
+                        
+                    </cite>-Anonymous</pre>
+            </div>
+        </div>
+    </section>
+    <section id="inventory">
+        <form class="tableBottomForm" action="https://wt.ops.labs.vu.nl/api21/f7045515" method="POST">
+            <table class="productsTable">
+                <caption>
+                    <h2><em> Our inventory:</em></h2>
+                </caption>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Origin</th>
+                    <th>Best Before</th>
+                </tr>
+                <tr id="r0">
+                    <td><img src="https://raw.githubusercontent.com/akivanno/WebTechHosting/master/broccoli.png" alt="Broccoli png">
+                    </td>
+                    <td>
+                        <p>Broccoli</p>
+                    </td>
+                    <td>
+                        <p>50kg</p>
+                    </td>
+                    <td>
+                        <p>Spain</p>
+                    </td>
+                    <td>
+                        <p>February 2021</p>
+                    </td>
+                </tr>
+                <tr id="r1">
+                    <td><img src="https://pngimg.com/uploads/carrot/carrot_PNG4985.png" alt="Carrots png"></td>
+                    <td>
+                        <p>Carrot</p>
+                    </td>
+                    <td>
+                        <p>150kg</p>
+                    </td>
+                    <td>
+                        <p>China</p>
+                    </td>
+                    <td>
+                        <p>April 2021</p>
+                    </td>
+                </tr>
+                <tr id="r2" class="productsRow">
+                    <td><img src="https://raw.githubusercontent.com/akivanno/WebTechHosting/master/kiwi.jpg" alt="Kiwi png">
+                    </td>
+                    <td>
+                        <p>Kiwi</p>
+                    </td>
+                    <td>
+                        <p>81 Kg</p>
+                    </td>
+                    <td>
+                        <p>Italy</p>
+                    </td>
+                    <td>
+                        <p>March 2021</p>
+                    </td>
+                </tr>
+                <tr id="formRow">
+                    <td>
+                        <input type="url" name="image" id="image" placeholder="Image url" required>
+                    </td>
+                    <td>
+                        <input type="text" name="product" id="product" placeholder="Product Name" required>
+                    </td>
+                    <td>
+                        <input type="text" name="amount" id="amount" placeholder="Quantity" required>
+                    </td>
+                    <td>
+                        <input type="text" name="origin" id="origin" placeholder="Product Origin" required>
+                    </td>
+                    <td>
+                        <input type="text" name="best_before_date" id="best_before_date" placeholder="Best before">
+                    </td>
+                </tr>
+            </table>
+            <input type="submit">
+        </form>
+
+    </section>
+    <section id="locations">
+        <h2><em>We are not only on the internet!</em></h2>
+        <p>You don't feel like ordering? Come visit us in one of our three shops in the Netherlands.</p>
+        <dl>
+            <dt>Den Hague:</dt>
+            <dd>Lekkerlaan 786, 1234AB</dd>
+            <dt>Amsterdam:</dt>
+            <dd>Brooderweg 54, 4321BA</dd>
+            <dt>Groningen:</dt>
+            <dd>Botherhamplein 101, 3412BC</dd>
+        </dl>
+    </section>
+    <section id="openhours">
+        <table class="timetable">
+            <caption>
+                <h3>Opening hours</h3>
+            </caption>
+            <tr>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Sathurday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <th>9:00-12:30</th>
+                <td colspan="2">Closed</td>
+                <td colspan="5">Open</td>
+            </tr>
+            <tr>
+                <th>13:00-16:30</th>
+                <td>Closed</td>
+                <td colspan="6">Open</td>
+            </tr>
+            <tr>
+                <th>16:30-20:30</th>
+                <td colspan="2">Closed</td>
+                <td colspan="4">Open</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    </section>
+    <section id="discounts">
+        <h2><em>Discount Codes!</em></h2>
+        <p>Enter our <strong>raffle</strong> for a chance to win some discount coupons by following the steps below</p>
+        <ol type="I">
+            <li>Take a selfie and post it on twitter with the hashtag &#35;WeLove22</li>
+            <li>Follow our instagram &#64;22Inc</li>
+            <li>Send an <a href="mailto:22inc@example.com">email</a> to us with your full name</li>
+        </ol>
+    </section>
+
+    <section id="aboutus">
+        <h2><em>More from Inc. 22</em></h2>
+        <nav>
+            <ul>
+                <li><a href="mailto:22inc@example.com"> Get in touch with us</a></li>
+                <li><a href="">Our social pages</a></li>
+            </ul>
+        </nav>
+    </section>
+</body>
+
+</html>
