@@ -1,6 +1,6 @@
 <svg>
-        <circle cx="50" cy="50" r="40" stroke="#FBB7C0" stroke-width="4" fill="black" />
-        <text fill="#A1CDF1" font-size="60px" text-anchor="middle" transform="translate(20,60) rotate(90)"> 2</text>
-        <text fill="#A1CDF1" font-size="60px" text-anchor="middle" transform="translate(80,40) rotate(-90)"> 2</text>
+        <circle cx="50" cy="50" r="40" stroke="#FBB7C0" stroke-width="4" fill="#A1CDF1" />
+        <text fill="#FBB7C0" font-size="60px" text-anchor="middle" transform="translate(20,60) rotate(90)"> 2</text>
+        <text fill="#FBB7C0" font-size="60px" text-anchor="middle" transform="translate(80,40) rotate(-90)"> 2</text>
         Sorry, your browser does not support inline SVG.
     </svg>
